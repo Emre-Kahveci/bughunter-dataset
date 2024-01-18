@@ -8,6 +8,10 @@
 
 <p id="description">Code written to train logistic regression, XGB, Random Forest, SVM, GaussianNB, KNN algorithms for the bughunter dataset
 
+### **Data Preprocessing**
+ - If the proportion of a data in the data distribution of a column is more than 80%, that column is removed from the data set.
+ - If the absolute value of the correlation between a column and the target column is less than 0.01, that column is discarded from the data set.
+
 ### **Algorithms are trained in two different ways: default and tuned.:**
 
  - **Tuned parameters for Logistic Regression are:** "penalty='l2', C=1.0"
