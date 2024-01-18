@@ -24,4 +24,13 @@ The class.csv file in each folder in the data set will be taken as the data set.
 Files to be saved by the program
 - There will be a csv file containing the f1 score of each algorithm in the "method_name_values.csv" file in the model_data/method_name/ folder.
 - For each algorithm, there will be a folder named model_name in the model_data/method_name folder and X_train, X_test, y_train, y_test csv files and the joblib file in which the model is saved.
+
+  ### **Result Graphs**
+  **Line chart**
+  ![line-chart](result-graphs/line-chart.png)
+  **Bar chart**
+  ![bar-chart](result-graphs/bar-chart.png)
+  **Line chart of classifier performances**
+  ![line-chart-of-classifier-performances](result-graphs/line-chart-of-classifier-performances.png)
+
 </p>
